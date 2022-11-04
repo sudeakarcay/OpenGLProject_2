@@ -1,10 +1,5 @@
 /*********
-   CTIS164 - Template Source Program
-----------
-STUDENT : Sude Akarçay
-SECTION : 004
-HOMEWORK: 2
-----------
+  
 PROBLEMS: 
 1-I tried to add as bonus generate question. Actually, I have done it correctly but there are some problems. For example when you try to answer question, the target does not move correctly.
 2-I could not exactly calculate the distance between target and player so in some distances player hits the target without touching it. 
@@ -797,7 +792,7 @@ void display() {
         glColor3f(1, 1, 0);
         vprint(-50, 300, GLUT_BITMAP_HELVETICA_18, "FIRING GAME");
         vprint(290, 300, GLUT_BITMAP_HELVETICA_18, "Sude Akarcay");
-        vprint(290, 280, GLUT_BITMAP_HELVETICA_18, "22002065");
+        
 
         glColor3ub(202, 255, 112);
         vprint(-150, 0, GLUT_BITMAP_HELVETICA_18, "LET'S FIRE! ARE YOU READY?");
